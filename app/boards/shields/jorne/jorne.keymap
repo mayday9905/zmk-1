@@ -12,9 +12,10 @@
 
 #define DEF 0
 #define ADD 1
-#define GM 2
-#define GM_A 3
-#define ADJ 4
+#define RW 2
+#define GM 3
+#define GM_A 4
+#define ADJ 5
 
 / {
         keymap {
