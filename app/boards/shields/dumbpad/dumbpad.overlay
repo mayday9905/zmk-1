@@ -36,6 +36,6 @@
 &left_encoder {
     status = "okay";
 };
-&left_encoder {
+&right_encoder {
     status = "okay";
 };
