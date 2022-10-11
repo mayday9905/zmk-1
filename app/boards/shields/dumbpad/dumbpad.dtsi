@@ -27,9 +27,8 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         label = "LEFT_ENCODER";
-        a-gpios = <4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
+        a-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     };
     sensors {
         compatible = "zmk,keymap-sensors";
