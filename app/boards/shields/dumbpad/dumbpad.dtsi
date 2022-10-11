@@ -45,3 +45,10 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)
         sensors = <&left_encoder &right_encoder>;
     };
 };
+
+&left_encoder {
+    status = "okay";
+};
+&right_encoder {
+    status = "okay";
+};
