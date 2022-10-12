@@ -32,7 +32,7 @@
             tapping-term-ms = <200>;
             bindings = <&kp SPACE>, <&to RSE>, <&to DEF>;
         };
-        td2: taз_switch_lang {
+        td2: tap_switch_lang {
             compatible = "zmk,behavior-tap-dance";
             label = "layer_change_1";
             #binding-cells = <0>;
