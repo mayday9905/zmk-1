@@ -33,7 +33,7 @@
                         bindings = <
    &kp LWIN &kp GRAVE &kp SLASH    &kp N7 &kp N8 &kp N9 &kp MINUS     &kp C_VOL_UP &kp C_PREV    &kp C_PP  &kp C_NEXT &trans &kp DEL  &kp BSPC
             &kp LSHFT &kp MULTIPLY &kp N4 &kp N5 &kp N6 &kp PLUS      &kp C_VOL_DN &kp LC(PSCRN) &trans    &trans     &trans &trans
-            &kp EQUAL &kp N0       &kp N1 &kp N2 &kp N3 &kp DOT       &kp C_MUTE   &kp LS(PSCRN) &kp COMMA &kp DOT    &trans &to ADJ
+            &lt FUNC EQUAL &kp N0       &kp N1 &kp N2 &kp N3 &kp DOT       &kp C_MUTE   &kp LS(PSCRN) &kp COMMA &kp DOT    &trans &to ADJ
                                         &kp DOWN &kp UP &trans        &kp SPACE &kp LEFT &kp RIGHT
                         >;
                 };
