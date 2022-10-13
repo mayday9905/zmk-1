@@ -34,7 +34,7 @@
         };
         td2: tap_switch_lang {
             compatible = "zmk,behavior-tap-dance";
-            label = "layer_change_1";
+            label = "switch_lang";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSHIFT>, <&kp LA(LSHIFT)>;
